@@ -1,0 +1,5 @@
+apiVersion: v2
+type: application
+name: cert-manager-csi
+description: CSI plugin to automatically mount signed certificates to Pods using ephemeral volumes
+version: 1.0.0

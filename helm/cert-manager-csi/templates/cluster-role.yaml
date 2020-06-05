@@ -1,0 +1,8 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: {{ include "cert-manager-csi.fullname" . }}
+rules:
+- apiGroups: ["cert-manager.io"]
+  resources: ["certificaterequests"]
+  verbs: ["get", "create", "delete", "update"]

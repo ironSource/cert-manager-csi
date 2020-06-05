@@ -1,0 +1,9 @@
+# Container images
+images:
+  nodeDriverRegistrar: quay.io/k8scsi/csi-node-driver-registrar
+  certManagerCSI: gcr.io/jetstack-josh/cert-manager-csi
+
+# Container image versions
+versions:
+  nodeDriverRegistrar: v1.2.0
+  certManagerCSI: v0.1.0-alpha.1
