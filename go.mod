@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/container-storage-interface/spec v1.1.0
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/glog v1.2.4
 	github.com/jetstack/cert-manager v0.12.0
 	github.com/kubernetes-csi/csi-lib-utils v0.6.1
 	github.com/onsi/ginkgo v1.10.1
